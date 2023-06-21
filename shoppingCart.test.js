@@ -4,7 +4,7 @@ beforeEach(() => {
   shoppingCart = new ShoppingCart();
 });
 
-describe("ShoppingCart2: addToCart", () => {
+describe("ShoppingCart: addToCart", () => {
   test("addToCart() 1 item", () => {
     shoppingCart.addToCart("Frisbee", [2, 3.0]);
 
@@ -21,7 +21,7 @@ describe("ShoppingCart2: addToCart", () => {
   });
 });
 
-describe("ShoppingCart2: Remove from cart", () => {
+describe("ShoppingCart: Remove from cart", () => {
   test("removeFromCart() 1 item", () => {
     shoppingCart.addToCart("Baseball", [4, 5.0]);
     shoppingCart.removeFromCart("Baseball", 3);
@@ -30,9 +30,9 @@ describe("ShoppingCart2: Remove from cart", () => {
   });
 });
 
-describe("ShoppingCart2: calculate total", () => {
+describe("ShoppingCart: calculate total", () => {
   test("calculateTotal()", () => {
-    shoppingCart = new ShoppingCart2();
+    shoppingCart = new ShoppingCart();
     shoppingCart.addToCart("Baseball", [4, 5.0]);
     shoppingCart.addToCart("Softball", [4, 5.0]);
 
