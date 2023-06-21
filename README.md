@@ -44,20 +44,20 @@ Part 4: JS Algorithm Problems. Write both the functions and the Test files for t
 Easy: Two Sum
 
 Description: Given an array of integers nums and a target integer target, return indices of the two numbers such that they add up to the target.
-* Example: twoSum([2, 7, 11, 15], 9) should return [0, 1] because 2 + 7 = 9.
-* Test cases:
-  
-Input: [2, 7, 11, 15], 9
-Expected output: [0, 1]
-Input: [3, 2, 4], 6
-Expected output: [1, 2]
-Input: [-1, -2, -3, -4, -5], -8
-Expected output: [2, 4]
+Example: twoSum([2, 7, 11, 15], 9) should return [0, 1] because 2 + 7 = 9.
+Test cases:
+
+* Input: [2, 7, 11, 15], 9
+  * Expected output: [0, 1]
+* Input: [3, 2, 4], 6
+  * Expected output: [1, 2]
+* Input: [-1, -2, -3, -4, -5], -8
+  * Expected output: [2, 4]
 Easy: Reverse String
 
 Description: Given a string str, return the reverse of the string.
-* Example: reverseString("hello") should return "olleh".
-* Test cases:
+Example: reverseString("hello") should return "olleh".
+Test cases:
   
 * Input: "hello"
   * Expected output: "olleh"
@@ -68,8 +68,8 @@ Description: Given a string str, return the reverse of the string.
 Medium: Longest Substring Without Repeating Characters
 
 Description: Given a string str, find the length of the longest substring without repeating characters.
-* Example: lengthOfLongestSubstring("abcabcbb") should return 3 because the longest substring without repeating characters is "abc".
-* Test cases:
+Example: lengthOfLongestSubstring("abcabcbb") should return 3 because the longest substring without repeating characters is "abc".
+Test cases:
   
 * Input: "abcabcbb"
   * Expected output: 3
@@ -80,8 +80,8 @@ Description: Given a string str, find the length of the longest substring withou
 Medium: Container With Most Water
 
 Description: Given an array of non-negative integers representing the heights of vertical lines, find two lines that together with the x-axis forms a container that holds the most water.
-* Example: maxArea([1, 8, 6, 2, 5, 4, 8, 3, 7]) should return 49 because the maximum area is obtained by choosing the heights 8 and 7, with the width between them being 7.
-* Test cases:
+Example: maxArea([1, 8, 6, 2, 5, 4, 8, 3, 7]) should return 49 because the maximum area is obtained by choosing the heights 8 and 7, with the width between them being 7.
+Test cases:
   
 * Input: [1, 8, 6, 2, 5, 4, 8, 3, 7]
   * Expected output: 49
