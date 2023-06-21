@@ -1,6 +1,6 @@
-const ShoppingCart2 = require("./shoppingCart2");
+const ShoppingCart = require("./shoppingCart");
 
-let shoppingCart = new ShoppingCart2();
+let shoppingCart = new ShoppingCart();
 shoppingCart.addToCart("Frisbee", 4, 1);
 shoppingCart.addToCart("Bat", 4, 1);
 shoppingCart.addToCart("Ball", 4, 1);
