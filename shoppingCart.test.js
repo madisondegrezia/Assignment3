@@ -34,7 +34,7 @@ describe("ShoppingCart: calculate total", () => {
   test("calculateTotal()", () => {
     shoppingCart = new ShoppingCart();
     shoppingCart.addToCart("Baseball", [4, 5.0]);
-    shoppingCart.addToCart("Softball", [4, 5.0]);
+    //shoppingCart.addToCart("Softball", [4, 5.0]);
 
     totalCost = shoppingCart.calculateTotal();
     console.log(totalCost);

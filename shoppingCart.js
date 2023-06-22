@@ -27,8 +27,10 @@ module.exports = class ShoppingCart {
   calculateTotal() {
     let totalPrice = 0;
     for (let [itemName, value] of this.cart) {
-      let price = value[1];
-      let quantity = value[0];
+      let price = value[0][1];
+      let quantity = value[0][0];
+      // console.log(price)
+      // console.log(quantity)
       totalPrice += quantity * price;
     }
 
